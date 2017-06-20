@@ -14,9 +14,16 @@
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="wp-content/themes/theme_principal/node_modules/fullpage.js/dist/jquery.fullPage.css" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="wp-content/themes/theme_principal/node_modules/fullpage.js/vendors/jquery.easings.min.js"></script>
+		<script type="text/javascript" src="wp-content/themes/theme_principal/node_modules/fullpage.js/vendors/scrolloverflow.min.js"></script>
+		<script type="text/javascript" src="wp-content/themes/theme_principal/node_modules/fullpage.js/dist/jquery.fullPage.js"></script>
+
 		<?php wp_head(); ?>
 	</head>
-	<body <?php body_class(); ?>>
+	<!-- <body <?php body_class(); ?>>
 	<?php do_action( 'foundationpress_after_body' ); ?>
 
 	<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) === 'offcanvas' ) : ?>
@@ -49,7 +56,7 @@
 				<?php endif; ?>
 			</div>
 		</nav>
-	</header>
+	</header> -->
 
 	<section class="container">
 		<?php do_action( 'foundationpress_after_header' );
